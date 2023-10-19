@@ -14,6 +14,7 @@ rm -rf   /d/hexo-theme-matery-github-public/scaffolds
 rm -rf   /d/hexo-theme-matery-github-public/source
 rm -rf   /d/hexo-theme-matery-github-public/themes
 rm -rf   /d/hexo-theme-matery-github-public/README.md
+rm -rf   /d/hexo-theme-matery-github-public/README.assests
 
 
 #拷贝hexo数据到即将上传的公开库

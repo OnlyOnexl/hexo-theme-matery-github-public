@@ -54,5 +54,3 @@ git tag -a v2.0.0-hexo-theme-matery-2023.10.18 -m "功能基本满足博客需�
 git push origin v2.0.0-hexo-theme-matery-2023.10.18
 
 git status
-cd /d/hexo
-

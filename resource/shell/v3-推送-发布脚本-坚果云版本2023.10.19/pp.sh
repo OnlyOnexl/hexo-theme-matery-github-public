@@ -42,6 +42,7 @@ cp /d/hexo-theme-matery-github-public/resource/xyy.png /d/hexo-theme-matery-gith
 cp /d/hexo-theme-matery-github-public/resource/【k8s】k8s.md /d/hexo-theme-matery-github-public/source/_posts
 cp /d/hexo-theme-matery-github-public/resource/【linux】linux.md /d/hexo-theme-matery-github-public/source/_posts
 
+
 cd /d/hexo-theme-matery-github-public
 git pull
 git add -A

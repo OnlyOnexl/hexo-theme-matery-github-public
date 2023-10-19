@@ -1,0 +1,23 @@
+[
+    {
+        "avatar": "/medias/friends/abcdocker.png",
+        "name": "abcdocker大佬",
+        "introduction": "大佬",
+        "url": "https://i4t.com/",
+        "title": "前去学习"
+    },
+    {
+        "avatar": "http://image.luokangyuan.com/4027734.jpeg",
+        "name": "闪烁之狐",
+        "introduction": "编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬",
+        "url": "https://blinkfox.github.io/",
+        "title": "前去学习"
+    },
+    {
+        "avatar": "/medias/xyy.png",
+        "name": "onlyone-xyy",
+        "introduction": "明心静性",
+        "url": "https://www.yuque.com/xyy-onlyone",
+        "title": "前去学习"
+    }
+]

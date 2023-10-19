@@ -116,3 +116,14 @@ git status
 
 cd /d/hexo
 """
+
+
+#推送静态数据到ecs
+alias xyy="""
+sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/xyy.sh
+"""
+
+#推送hexo配置数据到公开仓库
+alias pp="""
+sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/pp.sh
+"""

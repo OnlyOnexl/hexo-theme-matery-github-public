@@ -150,7 +150,7 @@ socialLink:
   qq: 2675263825
   # weibo: # https://weibo.com/xxx
   # zhihu: #https://www.zhihu.com/people/foryouone
-  # rss: true # true、false
+  rss: true # true、false
   # 微信: https://www.zhihu.com/people/foryouone
   weibo: /medias/social/hg-wecaht.png
   # wechat: /medias/social/hg-wecaht.png

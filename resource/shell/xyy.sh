@@ -15,7 +15,7 @@ echo "想"
 echo "你"
 echo "-------------------------------------------------------------------"
 
-/d/hexo/xyy/hexo.bat
+/d/hexo/resource/shell/hexo.bat
 echo "rsync: rsync数据winodws-->ecs推送成功!"
 echo ""
 echo ""

@@ -7,28 +7,24 @@
 cd /d/hexo-theme-matery-github-public
 rm -rf  /d/hexo-theme-matery-github-public/_config.landscape.yml
 rm -rf  /d/hexo-theme-matery-github-public/_config.yml
-rm -rf  /d/hexo-theme-matery-github-public/CNAME
 rm -rf  /d/hexo-theme-matery-github-public/package.json
 rm -rf   /d/hexo-theme-matery-github-public/public
 rm -rf   /d/hexo-theme-matery-github-public/resource
 rm -rf   /d/hexo-theme-matery-github-public/scaffolds
 rm -rf   /d/hexo-theme-matery-github-public/source
 rm -rf   /d/hexo-theme-matery-github-public/themes
-rm -rf   /d/hexo-theme-matery-github-public/xyy
 rm -rf   /d/hexo-theme-matery-github-public/README.md
 
 
 #拷贝hexo数据到即将上传的公开库
 cp /d/hexo/_config.landscape.yml /d/hexo-theme-matery-github-public/
 cp /d/hexo/_config.yml /d/hexo-theme-matery-github-public/
-cp /d/hexo/CNAME /d/hexo-theme-matery-github-public/
 cp /d/hexo/package.json /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/public /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/resource /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/scaffolds /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/source /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/themes /d/hexo-theme-matery-github-public/
-cp -R /d/hexo/xyy /d/hexo-theme-matery-github-public/
 
 rm -rf /d/hexo-theme-matery-github-public/source/_posts/*
 rm -rf /d/hexo-theme-matery-github-public/source/images/*

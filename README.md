@@ -1,14 +1,3 @@
----
-title: 实战：打造一个开箱即用的超级丝滑的漂亮hexo博客网站-v2-(坚果云版)(超详细-手把手)
-date: 2023-10-20
-categories: 
-- other
-tags:
-- hexo
-top: true
-summary: 好美的hexo博客，超级丝滑，持续更新！
----
-
 ## 实战：打造一个开箱即用的超级丝滑的漂亮hexo博客网站-v2-(坚果云版)(超详细-手把手)
 
 ![image-20231017062650020](README.assests/image-20231017062650020.png)

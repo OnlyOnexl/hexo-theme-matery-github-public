@@ -8,9 +8,7 @@ cd /d/hexo-theme-matery-github-public
 rm -rf  /d/hexo-theme-matery-github-public/_config.landscape.yml
 rm -rf  /d/hexo-theme-matery-github-public/_config.yml
 rm -rf  /d/hexo-theme-matery-github-public/CNAME
-rm -rf  /d/hexo-theme-matery-github-public/db.json
 rm -rf  /d/hexo-theme-matery-github-public/package.json
-rm -rf  /d/hexo-theme-matery-github-public/package-lock.json
 rm -rf   /d/hexo-theme-matery-github-public/public
 rm -rf   /d/hexo-theme-matery-github-public/resource
 rm -rf   /d/hexo-theme-matery-github-public/scaffolds
@@ -24,9 +22,7 @@ rm -rf   /d/hexo-theme-matery-github-public/README.md
 cp /d/hexo/_config.landscape.yml /d/hexo-theme-matery-github-public/
 cp /d/hexo/_config.yml /d/hexo-theme-matery-github-public/
 cp /d/hexo/CNAME /d/hexo-theme-matery-github-public/
-cp /d/hexo/db.json /d/hexo-theme-matery-github-public/
 cp /d/hexo/package.json /d/hexo-theme-matery-github-public/
-cp /d/hexo/package-lock.json /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/public /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/resource /d/hexo-theme-matery-github-public/
 cp -R /d/hexo/scaffolds /d/hexo-theme-matery-github-public/

@@ -1,8 +1,4 @@
-#一键推送并上传
-alias xyy='''
-sh /d/hexo/xyy/xyy.sh
-'''
-
+## 常见hexo命令简写
 #本地构建hexo静态数据
 alias hg='''
 cd /d/hexo
@@ -15,19 +11,9 @@ cd /d/hexo
 hexo s
 '''
 
-alias push="""
+alias gs="""
 cd /d/hexo
 git status
-echo "!"
-git pull
-echo "!"
-git add -A
-git commit -m "push-hexo-blog-metadata"
-git push
-echo "!"
-git status
-echo "!"
-xyy
 """
 
 alias pull="""
@@ -35,25 +21,36 @@ cd /d/hexo
 git pull
 """
 
-alias gs="""
+#同步hexo根数据到私有库 & 推送hexo配置数据到公开仓库
+alias push='''
 cd /d/hexo
 git status
-"""
-
-##hexo-theme-matery-github-public 公开仓库推送及打tag命令 2023年10月17日更新
-"""
-cd /d/hexo-theme-matery-github-public
+echo "!"
 git pull
+echo "!"
 git add -A
-git commit -m "push-hexo-theme-matery"
-git push 
-git tag -a v2-hexo-theme-matery-2023.10.17 -m "v2-hexo-theme-matery-2023.10.17"
-git push origin v2-hexo-theme-matery-2023.10.17
+git commit -m "push-hexo-blog-metadata to private"
+git push
+echo "!"
+git status
+echo "!"
+##触发执行推送博客配置数据到公开库
+pp
+'''
+
+
+
+
+#一键推送并上传
+#推送静态数据到ecs
+alias xyy="""
+sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/xyy.sh
 """
 
-##删除和重新打tag
-git tag -a v2.0.0-hexo-theme-matery-2023.10.18 -m "功能基本满足博客需求，使用体验极度丝滑"
-git push origin v2.0.0-hexo-theme-matery-2023.10.18
+#推送hexo配置数据到公开仓库
+alias pp="""
+sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/pp.sh
+"""
 
 
 
@@ -109,21 +106,11 @@ git push
 git tag -d v2.0.0-hexo-theme-matery-2023.10.18
 git push --delete origin v2.0.0-hexo-theme-matery-2023.10.18
 
+##删除和重新打tag
 git tag -a v2.0.0-hexo-theme-matery-2023.10.18 -m "功能基本满足博客需求，使用体验极度丝滑"
 git push origin v2.0.0-hexo-theme-matery-2023.10.18
 
 git status
 
 cd /d/hexo
-"""
-
-
-#推送静态数据到ecs
-alias xyy="""
-sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/xyy.sh
-"""
-
-#推送hexo配置数据到公开仓库
-alias pp="""
-sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/pp.sh
 """

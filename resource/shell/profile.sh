@@ -21,23 +21,6 @@ cd /d/hexo
 git pull
 """
 
-#同步hexo根数据到私有库 & 推送hexo配置数据到公开仓库
-alias push='''
-cd /d/hexo
-git status
-echo "!"
-git pull
-echo "!"
-git add -A
-git commit -m "push-hexo-blog-metadata to private"
-git push
-echo "!"
-git status
-echo "!"
-##触发执行推送博客配置数据到公开库
-pp
-'''
-
 
 
 
@@ -45,6 +28,12 @@ pp
 #推送静态数据到ecs
 alias xyy="""
 sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/xyy.sh
+"""
+
+#汇总命令：
+#同步hexo根数据到私有库 & 推送hexo配置数据到公开仓库
+alias push="""
+sh /d/hexo/resource/shell/v3-推送-发布脚本-2023.10.19/push.sh
 """
 
 #推送hexo配置数据到公开仓库

@@ -1,28 +1,8 @@
-## 常见hexo命令简写
-#本地构建hexo静态数据
-alias hg='''
-cd /d/hexo
-hexo g
-'''
-
-#本地构建hexo
-alias hs='''
-cd /d/hexo
-hexo s
-'''
-
-alias gs="""
-cd /d/hexo
-git status
-"""
-
-alias pull="""
-cd /d/hexo
-git pull
-"""
+#! /bin/bash
 
 #同步hexo根数据到私有库 & 推送hexo配置数据到公开仓库
-alias push='''
+echo "--------------------------------------------------------"
+echo "同步hexo根数据到私有库:push命令"
 cd /d/hexo
 git status
 echo "!"
@@ -35,6 +15,8 @@ echo "!"
 git status
 echo "!"
 ##触发执行推送博客配置数据到公开库
+echo "--------------------------------------------------------"
+echo "推送hexo配置数据到公开仓库:pp命令"
+sleep 2s
 pp
-'''
 

@@ -238,6 +238,12 @@ myProjects:
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
         url: https://www.yuque.com/xyy-onlyone/aevhhf?#
         desc: 打造一个专属于自己的本地化笔记方案。
+    typora-theme-mo2.0:
+        icon: fas fa-file-alt
+        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+        url: https://github.com/OnlyOnexl/typora-theme-mo2.0
+        desc: 一个漂亮的typora主题
+
     # typora-vue-theme:
     #     icon: fas fa-file-alt
     #     iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'

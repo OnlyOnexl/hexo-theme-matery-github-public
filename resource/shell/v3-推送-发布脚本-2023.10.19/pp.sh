@@ -43,10 +43,10 @@ git pull
 git add -A
 git commit -m "push-hexo-theme-matery"
 git push 
-git tag -d v2.0.0-hexo-theme-matery-2023.10.18
-git push --delete origin v2.0.0-hexo-theme-matery-2023.10.18
+# git tag -d v2.0.0-hexo-theme-matery-2023.10.18
+# git push --delete origin v2.0.0-hexo-theme-matery-2023.10.18
 
-git tag -a v2.0.0-hexo-theme-matery-2023.10.18 -m "功能基本满足博客需求，使用体验极度丝滑"
-git push origin v2.0.0-hexo-theme-matery-2023.10.18
+# git tag -a v2.0.0-hexo-theme-matery-2023.10.18 -m "功能基本满足博客需求，使用体验极度丝滑"
+# git push origin v2.0.0-hexo-theme-matery-2023.10.18
 
 git status

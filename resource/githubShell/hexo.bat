@@ -1,0 +1,3 @@
+::添加自己要执行的任务
+echo  Push winodws hexo static data to ecs...
+rsync.exe -avPzruh --delete --port 8730 --password-file=/cygdrive/D/password.txt /cygdrive/D/hexo/public root@47.97.48.237::cmi/
